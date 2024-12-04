@@ -80,9 +80,7 @@ export const GamePage = () => {
         ) {
             awardBadge();
         }
-        setTimeout(() => {
-            navigate("/");
-        }, 2000);
+        navigate("/");
     };
 
     if (currentQuestion === game.questions.length) {
